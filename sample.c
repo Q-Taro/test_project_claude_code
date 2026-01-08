@@ -11,15 +11,10 @@ void functionB() {
     *p = 42; // ここでクラッシュする
 }
 
-class Sample {
-public:
-    void method() {
-        printf("Sample method\n");
+struct Sample {
+    int data;
+};
 
-    }
-
-}
-//開発者版
 int main() {
     functionA();
     functionB();
