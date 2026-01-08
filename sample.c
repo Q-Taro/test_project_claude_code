@@ -14,7 +14,6 @@ void functionB() {
 struct Sample {
     int data;
 };
-
 int main() {
     functionA();
     functionB();
