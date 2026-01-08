@@ -19,10 +19,11 @@ public:
     }
 
 }
-
+//開発者版
 int main() {
     functionA();
     functionB();
+    functionA();
     Sample s = Sample();
     s.method
         return 0;
