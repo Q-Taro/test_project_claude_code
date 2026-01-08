@@ -15,12 +15,18 @@ struct Sample {
     int data;
 };
 
+//開発者版
 int main() {
     functionA();
     functionB();
-    struct Sample s = {0};
-    return 0;
+    functionA();
+    Sample s = {10};
+    s.method
+        return 0;
 }
+
+
+
 
 
 
