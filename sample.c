@@ -23,3 +23,4 @@ int main() {
     s.method
         return 0;
 }
+
