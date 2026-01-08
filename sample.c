@@ -20,7 +20,7 @@ int main() {
     functionA();
     functionB();
     functionA();
-    Sample s = Sample();
+    Sample s = {10};
     s.method
         return 0;
 }
