@@ -11,11 +11,15 @@ void functionB() {
     *p = 42; // ここでクラッシュする
 }
 
+int functionC() {
+    printf("Function C\n");
+    return 0;
+}
 struct Sample {
     int data;
 };
 
-//開発者版
+//開発者版 (developer edition) のみ有効 なメソッド
 int main() {
     functionA();
     functionB();
