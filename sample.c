@@ -14,6 +14,8 @@ void functionB() {
 struct Sample {
     int data;
 };
+
+//開発者版
 int main() {
     functionA();
     functionB();
@@ -22,4 +24,10 @@ int main() {
     s.method
         return 0;
 }
+
+
+
+
+
+
 
