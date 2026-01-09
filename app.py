@@ -6,6 +6,7 @@ def another():
 def main(args):
     for arg in args:
         print(f"Argument: {arg}")
+// 新しいRP 用
 
 if __name__ == "__main__":
     main(sys.argv[1:])
